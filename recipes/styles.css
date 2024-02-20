@@ -5,7 +5,8 @@ h1,h2,h3{
     background-color: green;
     color:white;
     text-align:center;
-    margin:50px
+    margin:50px;
+    padding: 10px;
 }
 
 h1#main{
@@ -57,4 +58,15 @@ img {
 img#page{
     width:auto;
     height:250px;
+}
+
+.tile {
+    display:inline-block;
+    padding: 50px;
+    margin: 60px;
+}
+
+.group {
+    padding-left: 150px;
+    padding-right: 150px;
 }
